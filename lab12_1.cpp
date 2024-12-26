@@ -17,10 +17,8 @@ int main(){
 long long int fibonacci(long  long int x){
     if (x == 0 || x == 1) {
     return x;
-    }else if(x > 1){
+    }else{
     long long int num = fibonacci(x-1) + fibonacci(x-2) ;
     return num;
-    }else{
-     cout << "input x >= 0";   
     }
 }
